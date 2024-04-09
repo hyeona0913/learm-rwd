@@ -1,0 +1,58 @@
+.container{
+  background:yellow;
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  grid-template-rows: repeat(5, 100px);
+  grid-template-areas: "box1 box1 box2 box2 box2"
+                       "box1 box1 box3 box3 box3"
+                       "box4 box4 box3 box3 box3"
+                       "box4 box4 box6 box7 box8"
+                       "box5 box5 box5 box9 box10";
+}
+.container div{
+  border: 1px solid red;
+
+}
+.box1{
+  background: pink;
+  grid-area: box1;
+}
+
+.box2{
+  background: lime;
+  grid-area: box2;
+}
+
+.box3{
+  background: skyblue;
+  grid-area: box3;
+}
+.box4{
+  background: salmon;
+  grid-area: box4;
+}
+.box5{
+  background: gray;
+  grid-area: box5;
+}
+.box6{
+  background: teal;
+  grid-area: box6;
+}
+.box7{
+  background: purple;
+  grid-area: box7;
+}
+.box8{
+  background: yellowgreen;
+  grid-area: box8;
+}
+.box9{
+  background: orange;
+  grid-area: box9;
+}
+.box10{
+  background: hotpink;
+  grid-area: box10;
+}
+
